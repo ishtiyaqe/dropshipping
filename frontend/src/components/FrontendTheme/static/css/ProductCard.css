@@ -1,0 +1,83 @@
+.hvdNYu {
+  border-radius: 3px;
+  transition: all 0.3s ease 0s;
+  background-color: white;
+  border: 1px solid rgb(246, 249, 252);
+}
+
+.fnvrHW {
+  cursor: unset;
+  box-shadow: none;
+  height: 100%;
+}
+.jfUrUf {
+  width: 100%;
+  max-height: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.kihmmo {
+  cursor: unset;
+  box-shadow: none;
+}
+
+.ehFAkV {
+  top: 10px;
+  right: -40px;
+  position: absolute;
+  transition: right 0.3s ease 0.1s;
+  background: transparent;
+}
+
+.beguZC {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 500px;
+  font-weight: 600;
+  color: inherit;
+  background-color: rgb(255, 255, 255);
+  transition: all 150ms ease-in-out 0s;
+  padding: 0.75rem;
+  font-size: 14px;
+}
+
+.bGaRqf {
+  top: 45px;
+  right: -40px;
+  position: absolute;
+  background: transparent;
+  transition: right 0.3s ease 0.2s;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.product-card h3 {
+  font-size: 1.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%; /* Occupy the full width of the container */
+  max-width: 100%; /* Ensure the text doesn't go beyond the container */
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #333;
+}
