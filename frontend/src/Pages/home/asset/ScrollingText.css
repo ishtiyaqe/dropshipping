@@ -1,0 +1,156 @@
+
+
+.kZovfW {
+    color: rgb(255, 255, 255);
+    /* margin-top: 3rem; */
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(67, 67, 67);
+}
+
+.iaYNFu {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.jsmmJw {
+    cursor: unset;
+    box-shadow: none;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.kZovfW::before {
+    inset: 5px;
+    z-index: 3;
+    content: "";
+    position: absolute;
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+
+
+.cuCafS {
+    z-index: 10;
+    font-size: 28px !important;
+    padding: 1.5rem;
+    position: relative;
+    text-transform: uppercase;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+}
+
+.cuCafS::after {
+    top: -36px;
+    bottom: 0px;
+    z-index: -1;
+    right: -17px;
+    content: "";
+    position: absolute;
+    transform: rotate(23deg);
+    border: 70px solid rgb(224, 224, 224);
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.hbMKme {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.kIEKkg {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    flex: 1 1 0%;
+}
+.kihmmo {
+    cursor: unset;
+    box-shadow: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.eRjLEq {
+    font-size: inherit;
+    font-style: italic;
+    position: relative;
+    white-space: nowrap;
+    text-transform: uppercase;
+    animation: CDDfz 30s linear 1s infinite normal none running;
+}
+@keyframes CDDfz {
+    0% {
+        left: 120%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+.eChkix {
+    font-size: inherit;
+    font-weight: 700;
+}
+
+@media (max-width: 768px){
+
+    .kZovfW {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    .cuCafS::after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .cuCafS {
+      margin-bottom: 16px;
+    }
+  }
+
+  .hYdLe {
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.ljlHTz {
+    display: flex;
+    width: unset;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 1.5rem;
+    font-weight: 600;
+    font-family: inherit;
+    transition: all 150ms ease-in-out 0s;
+    line-height: 1;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+}
