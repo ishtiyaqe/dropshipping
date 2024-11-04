@@ -68,9 +68,9 @@ def spell_check(text):
             corrected_words.append(lemmatizer.lemmatize(corrected_word, pos=pos))
     return ' '.join(corrected_words)
 
-ADMIN_PAGE_ID = '106665319043371'
-VERIFY_TOKEN = 'EAABZCL2kI5vIBAJQ7dyFn9X5PpMywnIuHedcf31RJZChDJnjZCzmzIx7EeWu7CvZCzhRCRjWBs25uSEn3pOrMcZBER77dtj2k4VbSwEDsXDgGM4kFWod8aZApgQw3FZCPmnAD8Tno0UTxMCGWwrsY7MgerYRMEMnyb3IxppLo1pNyd98gPMbHzA'
-PAGE_ACCESS_TOKEN = 'EAABZCL2kI5vIBAJQ7dyFn9X5PpMywnIuHedcf31RJZChDJnjZCzmzIx7EeWu7CvZCzhRCRjWBs25uSEn3pOrMcZBER77dtj2k4VbSwEDsXDgGM4kFWod8aZApgQw3FZCPmnAD8Tno0UTxMCGWwrsY7MgerYRMEMnyb3IxppLo1pNyd98gPMbHzA'
+ADMIN_PAGE_ID = 'page id'
+VERIFY_TOKEN = 'youtt yokrn'
+PAGE_ACCESS_TOKEN = 'page access ttoken'
 
 API_URL = 'https://graph.facebook.com/me/conversations?fields=messages{message,from,to}&access_token=' + VERIFY_TOKEN
 
